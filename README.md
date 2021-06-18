@@ -2,12 +2,15 @@
 
 > Check tasks: `submit50 cs50/problems/2019/x/programName`
 
+> Compile programs `clang -o test test.c -lcs50`
+
 Content:
 
-- [Lecture 0](#lecture-0)
-- [Lecture 1](#lecture-1)
-- [Lecture 2](#lecture-2)
-- [Lecture 3](#lecture-3)
+- [0. Lecture 0](#lecture-0)
+- [1. Lecture 1](#lecture-1)
+- [2. Lecture 2](#lecture-2)
+- [3. Lecture 3](#lecture-3)
+  - [3.1 CS50 IDE Offline](#cs50-ide-offline)
 
 ## Lecture 0
 
@@ -65,3 +68,15 @@ Numbers naming convention:
 > Hexadecimal number consists of `0-9,a-f`
 
 ---
+
+BMP image file structure
+
+![BMP structure](https://github.com/Temu4/cs50/raw/main/lecture_3/whodunit/bpm-structure.png)
+
+### CS50 IDE Offline
+
+https://cs50.readthedocs.io/ide/offline/
+
+Start: `ide50 start`
+
+Stop: `ide50 stop`
