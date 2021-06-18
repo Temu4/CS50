@@ -71,7 +71,7 @@ Numbers naming convention:
 
 BMP image file structure
 
-![BMP structure](https://github.com/Temu4/cs50/raw/main/lecture_3/whodunit/bpm-structure.png)
+![BMP structure](https://github.com/Temu4/cs50/raw/main/lecture_3/whodunit/bmp-structure.png)
 
 ### CS50 IDE Offline
 
