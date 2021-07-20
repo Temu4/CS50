@@ -11,6 +11,7 @@ Content:
 - [2. Lecture 2](#lecture-2)
 - [3. Lecture 3](#lecture-3)
   - [3.1 CS50 IDE Offline](#cs50-ide-offline)
+- [4. Lecture 4](#lecture-4)
 
 ## Lecture 0
 
@@ -80,3 +81,7 @@ https://cs50.readthedocs.io/ide/offline/
 Start: `ide50 start`
 
 Stop: `ide50 stop`
+
+## Lecture 4
+
+A **hash-table** is an array of linked list (each element of each is a pointer).
