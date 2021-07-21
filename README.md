@@ -12,6 +12,7 @@ Content:
 - [3. Lecture 3](#lecture-3)
   - [3.1 CS50 IDE Offline](#cs50-ide-offline)
 - [4. Lecture 4](#lecture-4)
+- [5. Lecture 5](#lecture-5)
 
 ## Lecture 0
 
@@ -85,3 +86,21 @@ Stop: `ide50 stop`
 ## Lecture 4
 
 A **hash-table** is an array of linked list (each element of each is a pointer).
+
+## Lecture 5
+
+**TCP/IP** - data transport protocol
+
+**URL** - Uniform Resource Locator
+
+**HTTP Statuses:**
+
+- 200 _OK_
+- 301 _Moved Permanently_
+- 302 _Found_
+- 304 _Not Modified_
+- 401 _Unauthorized_
+- 403 _Forbidden_
+- 404 _Not found_
+- 418 _I'm a Teapot_
+- 500 _Internal Server Error_
