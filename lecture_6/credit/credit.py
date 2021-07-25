@@ -1,12 +1,18 @@
-import cs50
 import math
 
 def main ():
     while True:
-        cardNumber = cs50.get_int("Enter Card Number (without spaces or dashes): ")
+        try:
+            userInput = input("Enter Card Number (without spaces or dashes): ")
 
-        if cardNumber and cardNumber > 0:
-            break
+            if userInput:
+
+                cardNumber = int(userInput)
+                if cardNumber and cardNumber > 0:
+                    break
+        except:
+            print("Program excepts only numbers. Try again...")
+            return False
 
     # get number length using math
     digits = int(math.log10(cardNumber))+1
