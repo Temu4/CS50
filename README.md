@@ -12,11 +12,14 @@ Content:
 - [3. Lecture 3](#lecture-3)
   - [3.1 CS50 IDE Offline](#cs50-ide-offline)
 - [4. Lecture 4](#lecture-4)
-- [5. Lecture 5](#lecture-5)
+- [5. Lecture 5 - HTTP, HTML, CSS](#lecture-5)
+- [6. Lecture 6 - Python](#lecture-6)
 
 ## Lecture 0
 
 ## Lecture 1
+
+Compile C code - `clang -o hello hello.c`
 
 ## Lecture 2
 
@@ -33,20 +36,20 @@ Items in array are stored one by one in the RAM after compiling.
 
 For using debugging tool in CS50 IDE type
 
-```
+```c
 debug50 ./codeSrc
 ```
 
 To get an address of the value use `&`.
 
-```
+```c
 int x = 1;
 int xAddress = &x;
 ```
 
 To work with an address (a **pointer**) you need to add `*` symbol between a type and a value. Ex: `int *a`. For allocating **pointee** to the pointer (for example, an integer)
 
-```
+```c
 int *a;
 a = malloc(sizeof(int));
 ```
@@ -55,7 +58,7 @@ To get a value by an address - use dereference operator `*` before the address.
 
 Ex: `int value = *a`.
 
-```
+```c
 *a = 42;
 ```
 
@@ -104,3 +107,33 @@ A **hash-table** is an array of linked list (each element of each is a pointer).
 - 404 _Not found_
 - 418 _I'm a Teapot_
 - 500 _Internal Server Error_
+
+## Lecture 6 - Python
+
+Data types in Python:
+
+- bool
+- float
+- int
+- str
+- dict (hash tables)
+- list (arrays)
+- range
+- set
+- tuple
+
+Compilation of Python code `python hello.py`
+
+Compiling process:
+
+_source code => compiler => byte code => interpreter_
+
+In Python variables have function scope:
+
+```python
+def test_function():
+  while True:
+    n = 123
+    break
+  return n #n=123
+```
