@@ -61,3 +61,5 @@ def printCardLogo(number):
 
 if __name__=="__main__":
     main()
+
+# card numbers for testing https://developer.paypal.com/docs/payflow/payflow-pro/payflow-pro-testing/
